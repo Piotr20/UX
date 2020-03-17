@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #143959;
+}
+
+
+.you {
+    color: #f8f8f8;
+    font-size: 4.6em;
+    font-family: Bowlby One SC;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: -12%;
+}
+
+.win {
+    color: #D93C87;
+    font-size: 6.5em;
+    font-family: Bowlby One SC;
+    float: right;
+    margin-right: 4%;
+}
+
+.fa-certificate {
+    font-size: 12em;
+    color: #BED95B;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.free {
+    font-size: 3em;
+    color: #D93C87;
+    font-family: Bowlby One SC;
+    z-index: 10;
+    margin-top: -150px;
+    margin-left: 56px;
+    transform: rotate(-10deg);
+}
+
+/* Beverage icons */
+
+.fa-wine-bottle {
+    visibility: hidden;
+
+    font-size: 15em;
+    color: #f8f8f8;
+    float: right;
+    margin-top: -10%;
+    margin-right: -4%;
+
+    transform: rotate(-25deg);
+    z-index: 1;
+}
+
+.fa-cocktail {
+    visibility: hidden;
+
+    font-size: 15em;
+    color: #f8f8f8;
+    float: right;
+    margin-top: -35%;
+    margin-right: 6%;
+
+    transform: rotate(10deg);
+    z-index: 2;
+}
+
+.fa-wine-glass-alt {
+    visibility: hidden;
+
+    font-size: 15em;
+    color: #f8f8f8;
+    float: right;
+    margin-top: -70%;
+    margin-right: 10%;
+
+    transform: rotate(10deg);
+    z-index: 3;
+}
+
+.fa-beer {
+    visibility: hidden;
+
+    font-size: 14em;
+    color: #f8f8f8;
+    float: right;
+    margin-top: -60%;
+    margin-right: 6%;
+
+    transform: rotate(10deg);
+    z-index: 4;
+}
+
+.fa-mug-hot {
+    visibility: hidden;
+
+    font-size: 14em;
+    color: #f8f8f8;
+    float: right;
+    margin-top: -60%;
+    margin-right: 6%;
+
+    transform: rotate(10deg);
+    z-index: 5;
+}
+
+.fa-glass-whiskey {
+    visibility: hidden;
+
+    font-size: 7em;
+    color: #f8f8f8;
+    float: right;
+    margin-top: -70%;
+    margin-right: 12%;
+
+    transform: rotate(10deg);
+    z-index: 6;
+}
