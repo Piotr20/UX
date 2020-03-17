@@ -19,12 +19,24 @@
 
           form {
                width: 100%;
-               height: 100vh;
+               padding-top: 35%;
+               display: flex;
+               flex-direction: column;
+
 
                input {
                     width: 100%;
                     height: 5.5vh;
+                    position: relative;
                }
+
+
+
+               input:nth-of-type(1) {
+                    margin-bottom: 15%;
+               }
+
+
 
                label,
                a {
@@ -36,6 +48,12 @@
                     font-size: 1.2em;
                }
 
+               a:nth-of-type(1) {
+                    text-align: right;
+                    margin-top: 1%;
+                    margin-bottom: 25%;
+               }
+
                a:nth-of-type(2) {
                     font-family: $Bowlby;
                     width: 100%;
@@ -45,7 +63,7 @@
                     text-decoration: none;
                     font-size: 1.3em;
                     border-radius: 70px;
-                    margin-top: 20%;
+                    text-align: center;
                }
           }
      }
