@@ -1,0 +1,106 @@
+body {
+     background-color: #143959;
+}
+
+#game-title {
+     justify-content: center;
+     font-family: "Bowlby One SC";
+     text-align: center;
+     margin-top: 5vh;
+}
+
+#first-row {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+#choose {
+     font-size: 8.5vw;
+     color: #BED95B;
+     font-family: "Bowlby One SC";
+}
+
+#your {
+     font-size: 5vw;
+     margin-top: 4%;
+     margin-left: 1%;
+     color: #f8f8f8;
+     font-family: "Bowlby One SC";
+}
+
+#mood {
+     font-size: 14vw;
+     margin-left: 22%;
+     margin-top: -7%;
+     color: #D93C87;
+     font-family: "Bowlby One SC";
+}
+
+@media (min-width: 300px) {
+     #game-grid {
+          justify-content: center;
+          text-align: center;
+          display: grid;
+          grid-template-columns: repeat(3, 90px);
+          grid-template-rows: repeat(3, 90px);
+          margin-top: 5vh;
+     }
+}
+
+@media (min-width: 350px) {
+     #game-grid {
+          grid-template-columns: repeat(3, 110px);
+          grid-template-rows: repeat(3, 110px);
+     }
+}
+
+@media (min-width: 400px) {
+     #game-grid {
+          grid-template-columns: repeat(3, 120px);
+          grid-template-rows: repeat(3, 120px);
+     }
+}
+
+#grid-item-1 {
+     background-color: #D93C87;
+}
+
+#grid-item-2 {
+     background-color: #BED95B;
+}
+
+#grid-item-3 {
+     background-color: #D93C87;
+}
+
+#grid-item-4 {
+     background-color: #BED95B;
+}
+
+#grid-item-5 {
+     background-color: #D93C87;
+}
+
+#grid-item-6 {
+     background-color: #BED95B;
+}
+
+#grid-item-7 {
+     background-color: #D93C87;
+}
+
+#grid-item-8 {
+     background-color: #BED95B;
+}
+
+#grid-item-9 {
+     background-color: #D93C87;
+}
+
+#question {
+     color: #BED95B;
+     font-size: 7vw;
+     text-align: center;
+     margin-top: 10%;
+}
