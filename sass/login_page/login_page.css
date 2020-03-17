@@ -1,0 +1,49 @@
+#wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+#form_section {
+  width: 100%;
+  height: 91vh;
+  background-color: #143959;
+}
+
+#form_section .form_container {
+  width: 76%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#form_section .form_container form {
+  width: 100%;
+  height: 100vh;
+}
+
+#form_section .form_container form input {
+  width: 100%;
+  height: 5.5vh;
+}
+
+#form_section .form_container form label,
+#form_section .form_container form a {
+  color: #BED95B;
+  font-weight: 300;
+}
+
+#form_section .form_container form label {
+  font-size: 1.2em;
+}
+
+#form_section .form_container form a:nth-of-type(2) {
+  font-family: "Bowlby One SC";
+  width: 100%;
+  height: 60px;
+  background-color: #D93C87;
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 70px;
+  margin-top: 20%;
+}
+/*# sourceMappingURL=login_page.css.map */
