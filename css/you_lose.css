@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #143959;
+}
+
+.you {
+    color: #f8f8f8;
+    font-size: 4em;
+    font-family: Bowlby One SC;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: -10%;
+}
+
+.lose {
+    color: #D93C87;
+    font-size: 5.2em;
+    font-family: Bowlby One SC;
+    float: right;
+    margin-right: 4%;
+    margin-bottom: 5%;
+}
+
+.sad {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.come_back {
+    font-family: inter;
+    color: #f8f8f8;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 12%;
+}
