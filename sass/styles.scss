@@ -1,6 +1,7 @@
 $navy: #143959;
 $pink: #D93C87;
 $green:#BED95B;
+$white: #f8f8f8;
 
 #wrapper {
      width: 100%;
@@ -33,7 +34,7 @@ $green:#BED95B;
 
      .logo_section {
           width: 100%;
-          min-height: 91vh;
+          height: 100vh;
           background-color: $navy;
           display: flex;
           align-items: center;
