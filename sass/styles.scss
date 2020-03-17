@@ -6,55 +6,10 @@ $white: #f8f8f8;
 #wrapper {
      width: 100%;
      height: 100vh;
+     background-color: $navy;
 
-     header {
+     .login_container {
           width: 100%;
-          height: 9vh;
-          background-color: $pink;
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-
-          a {
-               width: 30px;
-               height: 30px;
-               background-color: $green;
-          }
-
-          a:nth-of-type(2) {
-               background-color: transparent;
-
-               img {
-                    width: 100%;
-                    margin-top: -15%;
-
-               }
-          }
-     }
-
-     .logo_section {
-          width: 100%;
-          height: 100vh;
-          background-color: $navy;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          img {
-               width: 45%;
-               margin-bottom: 15%;
-               animation: logo_anim 1.1s infinite cubic-bezier(.27, .64, .52, .86) alternate;
-
-          }
-     }
-}
-
-@keyframes logo_anim {
-     from {
-          transform: scale(1);
-     }
-
-     to {
-          transform: scale(1.05);
+          height: 91vh;
      }
 }
