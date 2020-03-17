@@ -68,3 +68,11 @@
           }
      }
 }
+
+@media only screen and (min-height: 800px) {
+     #form_section .form_container form {
+          a:nth-of-type(1) {
+               margin-bottom: 50%;
+          }
+     }
+}
