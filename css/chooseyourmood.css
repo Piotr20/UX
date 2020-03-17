@@ -37,6 +37,11 @@ body {
      font-family: "Bowlby One SC";
 }
 
+.emoji {
+     color: #F8F8F8;
+     font-size: 50px;
+}
+
 @media (min-width: 300px) {
      #game-grid {
           justify-content: center;
