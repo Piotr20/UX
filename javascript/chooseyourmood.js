@@ -38,3 +38,43 @@ container6.innerHTML = '<i class=' + '"' + emoji6 + '"' + '> </i>';
 container7.innerHTML = '<i class=' + '"' + emoji7 + '"' + '> </i>';
 container8.innerHTML = '<i class=' + '"' + emoji8 + '"' + '> </i>';
 container9.innerHTML = '<i class=' + '"' + emoji9 + '"' + '> </i>';
+
+let beers = ["fas fa-wine-bottle", "fas fa-skull-crossbones"];
+
+let beer1 = beers[Math.floor(Math.random() * beers.length)];
+let beer2 = beers[Math.floor(Math.random() * beers.length)];
+let beer3 = beers[Math.floor(Math.random() * beers.length)];
+let beer4 = beers[Math.floor(Math.random() * beers.length)];
+let beer5 = beers[Math.floor(Math.random() * beers.length)];
+let beer6 = beers[Math.floor(Math.random() * beers.length)];
+let beer7 = beers[Math.floor(Math.random() * beers.length)];
+let beer8 = beers[Math.floor(Math.random() * beers.length)];
+let beer9 = beers[Math.floor(Math.random() * beers.length)];
+
+let container11 = document.getElementById('griditem11');
+let container22 = document.getElementById('griditem22');
+let container33 = document.getElementById('griditem33');
+let container44 = document.getElementById('griditem44');
+let container55 = document.getElementById('griditem55');
+let container66 = document.getElementById('griditem66');
+let container77 = document.getElementById('griditem77');
+let container88 = document.getElementById('griditem88');
+let container99 = document.getElementById('griditem99');
+
+
+container11.innerHTML = '<i class=' + '"' + beer1 + '"' + '> </i>';
+container22.innerHTML = '<i class=' + '"' + beer2 + '"' + '> </i>';
+container33.innerHTML = '<i class=' + '"' + beer3 + '"' + '> </i>';
+container44.innerHTML = '<i class=' + '"' + beer4 + '"' + '> </i>';
+container55.innerHTML = '<i class=' + '"' + beer5 + '"' + '> </i>';
+container66.innerHTML = '<i class=' + '"' + beer6 + '"' + '> </i>';
+container77.innerHTML = '<i class=' + '"' + beer7 + '"' + '> </i>';
+container88.innerHTML = '<i class=' + '"' + beer8 + '"' + '> </i>';
+container99.innerHTML = '<i class=' + '"' + beer9 + '"' + '> </i>';
+
+let showbeers = function () {
+     document.getElementById("game-grid").style.visibility = "hidden";
+     document.getElementById("game-grid-underneath").style.visibility = "visible";
+}
+
+document.getElementById('game-grid').addEventListener('click', showbeers);

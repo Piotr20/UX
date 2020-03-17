@@ -42,6 +42,8 @@ body {
      font-size: 20vw;
 }
 
+
+
 @media (min-width: 300px) {
      #game-grid {
           justify-content: center;
@@ -51,6 +53,19 @@ body {
           grid-template-rows: repeat(3, 80px);
           margin-top: 5vh;
      }
+
+     #game-grid-underneath {
+          justify-content: center;
+          text-align: center;
+          display: grid;
+          grid-template-columns: repeat(3, 80px);
+          grid-template-rows: repeat(3, 80px);
+          margin-top: 5vh;
+          position: absolute;
+          margin-top: -75%;
+          margin-left: 10%;
+          visibility: hidden;
+     }
 }
 
 @media (min-width: 350px) {
@@ -58,12 +73,27 @@ body {
           grid-template-columns: repeat(3, 100px);
           grid-template-rows: repeat(3, 100px);
      }
+
+     #game-grid-underneath {
+          grid-template-columns: repeat(3, 100px);
+          grid-template-rows: repeat(3, 100px);
+          position: absolute;
+          margin-top: -80%;
+          margin-left: 10%;
+          visibility: hidden;
+     }
 }
 
 @media (min-width: 400px) {
      #game-grid {
           grid-template-columns: repeat(3, 110px);
           grid-template-rows: repeat(3, 110px);
+     }
+
+     #game-grid-underneath {
+          grid-template-columns: repeat(3, 110px);
+          grid-template-rows: repeat(3, 110px);
+          visibility: hidden;
      }
 }
 
@@ -100,6 +130,42 @@ body {
 }
 
 #griditem9 {
+     background-color: #D93C87;
+}
+
+#griditem11 {
+     background-color: #D93C87;
+}
+
+#griditem22 {
+     background-color: #BED95B;
+}
+
+#griditem33 {
+     background-color: #D93C87;
+}
+
+#griditem44 {
+     background-color: #BED95B;
+}
+
+#griditem55 {
+     background-color: #D93C87;
+}
+
+#griditem66 {
+     background-color: #BED95B;
+}
+
+#griditem77 {
+     background-color: #D93C87;
+}
+
+#griditem88 {
+     background-color: #BED95B;
+}
+
+#griditem99 {
      background-color: #D93C87;
 }
 
