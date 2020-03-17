@@ -1,123 +1,81 @@
 #wrapper {
   width: 100%;
   height: 100vh;
-  background-color: #143959;
 }
 
-#wrapper .login_container {
+#wrapper header {
   width: 100%;
-  height: 91vh;
+  height: 9vh;
+  background-color: #D93C87;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
-#wrapper .login_container img {
-  width: 90%;
-  margin-top: 20%;
+#wrapper header a {
+  width: 30px;
+  height: 30px;
+  background-color: #BED95B;
 }
 
-#wrapper .login_container a {
-  text-align: center;
-  color: #BED95B;
+#wrapper header a:nth-of-type(2) {
+  background-color: transparent;
 }
 
-#wrapper .login_container a:nth-of-type(1) {
-  width: 70%;
-  height: 60px;
-  font-family: 'Bowlby One SC';
-  background-color: #D93C87;
-  line-height: 60px;
-  text-decoration: none;
-  font-size: 1.3em;
-  border-radius: 70px;
-  margin-top: 20%;
+#wrapper header a:nth-of-type(2) img {
+  width: 100%;
+  margin-top: -15%;
 }
 
-#wrapper .login_container a:nth-of-type(2) {
-  margin-top: 4%;
-  font-size: 1.2em;
-}
-
-#wrapper .anim_container {
+#wrapper .logo_section {
   width: 100%;
   height: 100vh;
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 0;
+  background-color: #143959;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #143959;
-  -webkit-animation: fadeOut 1s 3.5s forwards ease;
-          animation: fadeOut 1s 3.5s forwards ease;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-#wrapper .anim_container img {
-  height: 40%;
-  -webkit-animation: pulse 0.6s 6 alternate cubic-bezier(0.37, 0.72, 0.37, 0.72);
-          animation: pulse 0.6s 6 alternate cubic-bezier(0.37, 0.72, 0.37, 0.72);
+#wrapper .logo_section img {
+  width: 45%;
+  margin-bottom: 15%;
+  -webkit-animation: logo_anim 1.1s infinite cubic-bezier(0.27, 0.64, 0.52, 0.86) alternate;
+  animation: logo_anim 1.1s infinite cubic-bezier(0.27, 0.64, 0.52, 0.86) alternate;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes logo_anim {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+
   to {
     -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
 
-@keyframes pulse {
+@keyframes logo_anim {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+
   to {
     -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
 
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-@media only screen and (min-height: 800px) {
-  #wrapper .login_container a:nth-of-type(1) {
-    margin-top: 40%;
-  }
-}
 /*# sourceMappingURL=styles.css.map */
