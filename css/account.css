@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #143959;
+}
+
+.fa-user-circle {
+    color: #f8f8f8;
+    font-size: 8.5em;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-top: 8%;
+}
+
+.name {
+    text-align: center;
+    color: #D93C87;
+    font-size: 2em;
+    padding-top: 4%;
+    font-family: inter;
+}
+
+.education {
+    color: #f8f8f8;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: inter;
+}
+
+.class {
+    color: #BED95B;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: inter;
+}
+
+.total_visit {
+    margin-top: 50%;
+    font-family: inter;
+    text-align: center;
+}
+
+.register {
+    color: #BED95B;
+    font-size: 1.2em;
+}
+
+.amount {
+    color: #D93C87;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.visits {
+    display: inline-block;
+    color: #D93C87;
+    font-size: 1.8em;
+}
+
+.offers {
+    font-family: "bowlby one sc";
+    font-size: 2.2em;
+    padding-bottom: 4%;
+    letter-spacing: 0.04em;
+}
+
+.container {
+    padding-right: 6%;
+    margin-top: 16%;
+}
+
+.prize {
+    font-family: inter;
+    font-size: 1.9em;
+}
+
+.description {
+    font-family: inter;
+    font-size: 1.3em;
+    color: #BED95B;
+}
+
+.redeem {
+    font-family: "Bowlby one sc";
+    background-color: #143959;
+    color: #BED95B;
+    font-size: 1.6em;
+    width: 60%;
+    height: 45px;
+    display: block;
+    letter-spacing: 0.1em;
+    line-height: 48px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 18%;
+}
+
+.offers_box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 90%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    color: #f8f8f8;
+    background-color: #D93C87;
+    padding-bottom: 15%;
+    padding-top: 6%;
+    padding-left: 8%;
+}
