@@ -1,0 +1,175 @@
+body {
+     background-color: #143959;
+}
+
+#game-title {
+     justify-content: center;
+     font-family: "Bowlby One SC";
+     text-align: center;
+     margin-top: 5vh;
+}
+
+#first-row {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+#scratch {
+     font-size: 10vw;
+     color: #BED95B;
+     font-family: "Bowlby One SC";
+}
+
+#to {
+     font-size: 7vw;
+     margin-top: 4%;
+     margin-left: 1%;
+     color: #f8f8f8;
+     font-family: "Bowlby One SC";
+}
+
+#win {
+     font-size: 18vw;
+     margin-left: 19%;
+     margin-top: -7%;
+     color: #D93C87;
+     font-family: "Bowlby One SC";
+}
+
+.grid-item {
+     color: #F8F8F8;
+     font-size: 20vw;
+}
+
+@media (min-width: 300px) {
+     #game-grid {
+          justify-content: center;
+          text-align: center;
+          display: grid;
+          grid-template-columns: repeat(3, 80px);
+          grid-template-rows: repeat(3, 80px);
+          margin-top: 5vh;
+     }
+
+     #game-grid-underneath {
+          justify-content: center;
+          text-align: center;
+          display: grid;
+          grid-template-columns: repeat(3, 80px);
+          grid-template-rows: repeat(3, 80px);
+          margin-top: 5vh;
+          position: absolute;
+          margin-top: -75%;
+          margin-left: 10%;
+          visibility: hidden;
+     }
+}
+
+@media (min-width: 350px) {
+     #game-grid {
+          grid-template-columns: repeat(3, 100px);
+          grid-template-rows: repeat(3, 100px);
+     }
+
+     #game-grid-underneath {
+          grid-template-columns: repeat(3, 100px);
+          grid-template-rows: repeat(3, 100px);
+          position: absolute;
+          margin-top: -80%;
+          margin-left: 10%;
+          visibility: hidden;
+     }
+}
+
+@media (min-width: 400px) {
+     #game-grid {
+          grid-template-columns: repeat(3, 110px);
+          grid-template-rows: repeat(3, 110px);
+     }
+
+     #game-grid-underneath {
+          grid-template-columns: repeat(3, 110px);
+          grid-template-rows: repeat(3, 110px);
+          visibility: hidden;
+     }
+}
+
+#griditem1 {
+     background-color: #D93C87;
+}
+
+#griditem2 {
+     background-color: #BED95B;
+}
+
+#griditem3 {
+     background-color: #D93C87;
+}
+
+#griditem4 {
+     background-color: #BED95B;
+}
+
+#griditem5 {
+     background-color: #D93C87;
+}
+
+#griditem6 {
+     background-color: #BED95B;
+}
+
+#griditem7 {
+     background-color: #D93C87;
+}
+
+#griditem8 {
+     background-color: #BED95B;
+}
+
+#griditem9 {
+     background-color: #D93C87;
+}
+
+#griditem11 {
+     background-color: #D93C87;
+}
+
+#griditem22 {
+     background-color: #BED95B;
+}
+
+#griditem33 {
+     background-color: #D93C87;
+}
+
+#griditem44 {
+     background-color: #BED95B;
+}
+
+#griditem55 {
+     background-color: #D93C87;
+}
+
+#griditem66 {
+     background-color: #BED95B;
+}
+
+#griditem77 {
+     background-color: #D93C87;
+}
+
+#griditem88 {
+     background-color: #BED95B;
+}
+
+#griditem99 {
+     background-color: #D93C87;
+}
+
+#sentence {
+     color: #BED95B;
+     font-size: 7vw;
+     text-align: center;
+     margin-top: 10%;
+}
