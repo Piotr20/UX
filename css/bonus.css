@@ -4,11 +4,12 @@
 
 .havevisited {
 
-    font-family: "Bowlby One SC";
+    font-family: 'Inter, sans-serif';
     text-align: center;
     margin-top: 5vh;
-    font-size: 3em;
+    font-size: 2.8em;
     color: #BED95B;
+    text-decoration: none;
 }
 
 .numbers {
@@ -18,64 +19,73 @@
 }
 
 .small {
-    font-size: 8em;
+    font-size: 7.1em;
     color: white;
-    font-family: "Bowlby One SC";
+    font-family: 'Inter, sans-serif';
+    text-decoration: none;
 }
 
 .lomitko {
-    font-size: 5em;
+    font-size: 5.0em;
     color: #D93D86;
-    font-family: "Bowlby One SC";
-    margin-top: 80px;
-
+    font-family: 'Inter, sans-serif';
+    margin-top: 60px;
+    text-decoration: none;
 }
 
 .big {
-    font-family: "Bowlby One SC";
-    font-size: 5em;
+    font-family: 'Inter, sans-serif';
+    font-size: 5.0em;
     color: #D93D86;
     margin-top: 80px;
+    text-decoration: none;
 }
 
 .lol {
-    font-family: "Bowlby One SC";
+    font-family: 'Inter, sans-serif';
     text-align: center;
     margin-top: 0vh;
-    font-size: 3em;
+    font-size: 2.8em;
     color: #BED95B;
+    text-decoration: none;
 
 }
 
 .eight {
-    font-size: 1.8em;
+    font-size: 2.3em;
     color: #D93D86;
-    font-family: "Bowlby One SC";
+    font-family: 'Inter, sans-serif';
     margin-left: 5px;
     margin-right: 5px;
+    text-decoration: none;
 }
 
 
 
 .come {
-    font-size: 1.8em;
+    font-size: 2.3em;
     color: #BED95B;
-    font-family: "Bowlby One SC";
+    font-family: 'Inter, sans-serif';
+    text-decoration: none;
 }
 
-.fuckoffemoji {
+
+
+.happy {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    ]
+}
+
+.win {
+    font-size: 2.3em;
+    color: #BED95B;
+    font-family: 'Inter, sans-serif';
     text-align: center;
-}
-
-.emoji {
-    font-size: 35vh;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    color: #BED95B;
-}
-
-.more {
-    font-size: 1.8em;
-    color: #BED95B;
-    font-family: "Bowlby One SC";
+    text-decoration: none;
+    margin-bottom: 60px;
 }
