@@ -1,0 +1,29 @@
+body {
+     background-color: #143959;
+}
+
+#ask4code {
+     color: #BED95B;
+     font-size: 10vw;
+     margin: 20vh 7vw;
+     text-align: center;
+}
+
+#wtf {
+     width: 76%;
+     height: 60px;
+     background-color: #D93C87;
+     border-radius: 70px;
+     text-align: center;
+     margin: 0 auto;
+}
+
+#button {
+     font-family: "Bowlby One SC";
+     line-height: 60px;
+     text-decoration: none;
+     font-size: 1.3em;
+     color: #BED95B;
+     font-weight: 300;
+     align-content: center;
+}
