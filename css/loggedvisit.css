@@ -1,3 +1,21 @@
 body {
      background-color: #143959;
 }
+
+#visit {
+     color: #BED95B;
+     font-size: 10vw;
+     margin: 20vh 7vw;
+     text-align: center;
+}
+
+#times {
+     color: #BED95B;
+     font-size: 7vw;
+     margin: 20vh 7vw 0 7vw;
+     text-align: center;
+}
+
+.number {
+     color: #D93C87;
+}
