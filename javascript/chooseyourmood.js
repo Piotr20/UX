@@ -77,4 +77,19 @@ let showbeers = function () {
      document.getElementById("game-grid-underneath").style.visibility = "visible";
 }
 
-document.getElementById('game-grid').addEventListener('click', showbeers);
+document.getElementById('griditem1').addEventListener('click', showbeers);
+
+let elementIsClicked1 = false; // declare the variable that tracks the state
+
+
+let element1 = document.getElementById('griditem1'); // grab a reference to your element
+element1.addEventListener('click', clickHandler1); // associate the function above with the click event
+
+function clickHandler1() { // declare a function that updates the state
+     elementIsClicked1 = true;
+}
+
+console.log(elementIsClicked1);
+if (elementIsClicked1 == true) {
+     console.log("You win!");
+}
