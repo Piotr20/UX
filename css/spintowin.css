@@ -1,0 +1,73 @@
+body {
+     background-color: #143959;
+}
+
+#game-title {
+     justify-content: center;
+     font-family: "Bowlby One SC";
+     text-align: center;
+     margin-top: 5vh;
+}
+
+#first-row {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+#spin {
+     font-size: 10vw;
+     color: #BED95B;
+     font-family: "Bowlby One SC";
+}
+
+#to {
+     font-size: 7vw;
+     margin-top: 4%;
+     margin-left: 1%;
+     color: #f8f8f8;
+     font-family: "Bowlby One SC";
+}
+
+#win {
+     font-size: 18vw;
+     margin-left: 19%;
+     margin-top: -7%;
+     color: #D93C87;
+     font-family: "Bowlby One SC";
+}
+
+#button {
+     background-color: #D93C87;
+     border-radius: 70px;
+     border: none;
+     font-family: "Bowlby One SC";
+     line-height: 60px;
+     text-decoration: none;
+     font-size: 1.3em;
+     color: #BED95B;
+     font-weight: 300;
+     align-content: center;
+     width: 40vw;
+}
+
+#button-container {
+     width: 100vw;
+     text-align: center;
+}
+
+#wheel {
+     width: 75vw;
+     margin: 5vh auto;
+}
+
+#wheel-container {
+     width: 100%;
+     text-align: center;
+}
+
+@media (min-width: 300px) {}
+
+@media (min-width: 350px) {}
+
+@media (min-width: 400px) {}
