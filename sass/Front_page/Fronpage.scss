@@ -1,0 +1,31 @@
+@import '../Colours.scss';
+@import '../Fonts.scss';
+
+#bubbles {
+     width: 100%;
+     height: 71vh;
+     background-color: $navy;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     .bubble_box {
+          width: 96%;
+          height: 90%;
+          background-color: $green;
+     }
+}
+
+#contest {
+     width: 100%;
+     background-color: $navy;
+     height: 90vh;
+
+     .game_box {
+          width: 90%;
+          height: 100%;
+          background-color: $pink;
+          margin: 0 auto;
+          border-radius: 20px 20px 0 0;
+     }
+}
