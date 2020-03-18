@@ -1,0 +1,36 @@
+.onebeer {
+
+    font-family: Bowlby One SC;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 5vh;
+    color: #D93D86;
+    text-decoration: none;
+
+}
+
+.onebeer_container {
+    justify-content: center;
+}
+
+.qcode {
+    font-size: 70vw;
+    color: white;
+
+}
+
+.qcode_container {
+    text-align: center;
+}
+
+.letbartender {
+    font-family: 'Inter, sans-serif';
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 5vh;
+    color: #BED95B;
+    text-decoration: none;
+
+}
