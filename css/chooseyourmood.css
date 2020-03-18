@@ -42,8 +42,6 @@ body {
      font-size: 20vw;
 }
 
-
-
 @media (min-width: 300px) {
      #game-grid {
           justify-content: center;
