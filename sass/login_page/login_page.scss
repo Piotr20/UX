@@ -30,6 +30,10 @@
                     position: relative;
                }
 
+               input:focus {
+                    outline: 2px solid $pink;
+               }
+
 
 
                input:nth-of-type(1) {
