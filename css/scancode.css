@@ -1,3 +1,18 @@
 body {
      background-color: #143959;
 }
+
+#qrcode {
+     width: 50%;
+     margin-top: 50%;
+}
+
+main {
+     text-align: center;
+}
+
+@media (min-height: 800px) {
+     #qrcode {
+          margin-top: 70%;
+     }
+}
