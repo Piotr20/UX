@@ -67,4 +67,10 @@ main {
     padding-bottom: 15%;
     padding-top: 6%;
     padding-left: 8%;
+    padding-right: 8%;
+}
+
+iframe {
+    background-color: #ffffff;
+    margin-bottom: 20px;
 }
