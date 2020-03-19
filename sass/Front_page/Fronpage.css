@@ -16,7 +16,144 @@
 #bubbles .bubble_box {
   width: 96%;
   height: 90%;
+  position: relative;
+}
+
+#bubbles .bubble_box a {
+  position: absolute;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+#bubbles .bubble_box a:nth-of-type(1) {
+  width: 45vh;
+  height: 45vh;
   background-color: #BED95B;
+  right: 0;
+}
+
+#bubbles .bubble_box a:nth-of-type(2) {
+  background-color: #D93C87;
+  width: 23vh;
+  height: 23vh;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+#bubbles .bubble_box a:nth-of-type(2) span,
+#bubbles .bubble_box a:nth-of-type(2) p {
+  width: 80%;
+  height: 40%;
+  text-align: center;
+}
+
+#bubbles .bubble_box a:nth-of-type(2) span {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#bubbles .bubble_box a:nth-of-type(2) span i {
+  font-size: 400%;
+  color: #f8f8f8;
+}
+
+#bubbles .bubble_box a:nth-of-type(2) p {
+  height: 30%;
+  font-family: "Bowlby One SC";
+  color: #f8f8f8;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) {
+  width: 16vh;
+  height: 16vh;
+  background-color: #f8f8f8;
+  bottom: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) span,
+#bubbles .bubble_box a:nth-of-type(3) p {
+  width: 80%;
+  height: 40%;
+  text-align: center;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) span {
+  height: 50%;
+  position: relative;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) span p {
+  position: absolute;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) span p:nth-of-type(1) {
+  font-size: 2.3em;
+  color: #D93C87;
+  left: -30%;
+  top: -10%;
+  width: 100%;
+  height: 100%;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) span p:nth-of-type(2) {
+  font-size: 4.5em;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(10deg);
+          transform: translate(-50%, -50%) rotate(10deg);
+  width: 100%;
+  height: 100%;
+  font-family: "Inter, sans-serif";
+  font-weight: 600;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) span p:nth-of-type(3) {
+  color: #BED95B;
+  width: 100%;
+  height: 100%;
+  bottom: -50%;
+  right: -30%;
+}
+
+#bubbles .bubble_box a:nth-of-type(3) p {
+  height: 30%;
+  font-family: "Bowlby One SC";
+  color: #143959;
 }
 
 #contest {
