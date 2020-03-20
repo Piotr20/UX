@@ -7,9 +7,10 @@ body {
      font-size: 10vw;
      margin: 20vh 7vw;
      text-align: center;
+     font-family: "Inter";
 }
 
-#wtf {
+#code {
      width: 76%;
      height: 60px;
      background-color: #D93C87;
@@ -26,4 +27,5 @@ body {
      color: #BED95B;
      font-weight: 300;
      align-content: center;
+     letter-spacing: 0.1em;
 }
