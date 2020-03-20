@@ -28,7 +28,6 @@ let container7 = document.getElementById('griditem7');
 let container8 = document.getElementById('griditem8');
 let container9 = document.getElementById('griditem9');
 
-
 container1.innerHTML = '<i class=' + '"' + emoji1 + '"' + '> </i>';
 container2.innerHTML = '<i class=' + '"' + emoji2 + '"' + '> </i>';
 container3.innerHTML = '<i class=' + '"' + emoji3 + '"' + '> </i>';
@@ -60,7 +59,6 @@ let container66 = document.getElementById('griditem66');
 let container77 = document.getElementById('griditem77');
 let container88 = document.getElementById('griditem88');
 let container99 = document.getElementById('griditem99');
-
 
 container11.innerHTML = '<i class=' + '"' + beer1 + '"' + '> </i>';
 container22.innerHTML = '<i class=' + '"' + beer2 + '"' + '> </i>';

@@ -1,5 +1,5 @@
-let links = ["subpages/spintowin.html", "subpages/scratchtowin.html",
-     "subpages/chooseyourmood.html"
+let links = ["Subpages/spintowin.html", "Subpages/scratchtowin.html",
+     "Subpages/chooseyourmood.html"
 ];
 
 let link = links[Math.floor(Math.random() * links.length)];
