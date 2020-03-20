@@ -77,9 +77,9 @@ let showbeers = function () {
      document.getElementById("game-grid-underneath").style.visibility = "visible";
 }
 
-document.getElementById('griditem1').addEventListener('click', showbeers);
+document.getElementById('game-grid').addEventListener('click', showbeers)
 
-let elementIsClicked1 = false; // declare the variable that tracks the state
+/*let elementIsClicked1 = false; // declare the variable that tracks the state
 
 
 let element1 = document.getElementById('griditem1'); // grab a reference to your element
@@ -89,7 +89,6 @@ function clickHandler1() { // declare a function that updates the state
      elementIsClicked1 = true;
 }
 
-console.log(elementIsClicked1);
-if (elementIsClicked1 == true) {
-     console.log("You win!");
-}
+if (container11.textContent.includes('<i class="fas fa-wine-bottle"</i>')) {
+     document.getElementById('what').textContent = 'Good';
+}*/
