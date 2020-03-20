@@ -1,12 +1,3 @@
-.big {
-     font-size: 2em;
-     color: blue;
-}
-
-.slash {}
-
-.small {}
-
 .game_box {
      margin-left: auto;
      margin-right: auto;
@@ -20,8 +11,8 @@
 }
 
 .weekly {
-     font-family: bowlby one sc;
-     font-size: 3.6em;
+     font-family: "bowlby one sc";
+     font-size: 2.6em;
      color: #f8f8f8;
      margin-bottom: -30px;
      margin-top: -4%;
