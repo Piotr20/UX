@@ -2,17 +2,13 @@ body {
      background-color: #143959;
 }
 
-#qrcode {
-     width: 50%;
+.fa-qrcode {
+     font-size: 15em;
      margin-top: 50%;
-}
-
-main {
+     color: #f8f8f8;
+     margin: auto;
+     margin-top: 40%;
      text-align: center;
-}
-
-@media (min-height: 800px) {
-     #qrcode {
-          margin-top: 70%;
-     }
+     display: block;
+     width: 100%;
 }

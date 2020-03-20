@@ -1,10 +1,9 @@
 .onebeer {
-
-    font-family: Bowlby One SC;
+    font-family: "Bowlby One sc";
     text-align: center;
-    margin-top: 7vh;
+    margin-top: 9vh;
     margin-bottom: 5vh;
-    font-size: 8vh;
+    font-size: 7vh;
     color: #D93D86;
     text-decoration: none;
 
@@ -14,23 +13,22 @@
     justify-content: center;
 }
 
-.qcode {
-    font-size: 70vw;
+.fa-qrcode {
+    font-size: 60vw;
     color: white;
-
-}
-
-.qcode_container {
+    width: 100%;
+    display: block;
     text-align: center;
 }
 
 .letbartender {
-    font-family: 'Inter, sans-serif';
+    font-family: 'Inter';
+    font-size: 4vh;
+    color: #BED95B;
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 5vh;
-    font-size: 5vh;
-    color: #BED95B;
+
     text-decoration: none;
 
 }
