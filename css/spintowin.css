@@ -59,6 +59,11 @@ body {
 #wheel {
      width: 90vw;
      margin: 2vh auto;
+     transition: all 1s ease;
+}
+
+.active {
+     transform: rotate(900deg);
 }
 
 #wheel-container {

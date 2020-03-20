@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #143959;
+}
+
 main {
     background-color: #143959;
+
 }
 
 .you {
     color: #f8f8f8;
     font-size: 4em;
     font-family: Bowlby One SC;
-    margin-left: 4%;
-    margin-top: 5%;
+    padding: 5% 0 0 4%;
     margin-bottom: -10%;
 }
 
