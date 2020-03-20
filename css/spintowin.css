@@ -6,7 +6,7 @@ body {
      justify-content: center;
      font-family: "Bowlby One SC";
      text-align: center;
-     margin-top: 5vh;
+     margin-top: 2vh;
 }
 
 #first-row {
@@ -16,13 +16,13 @@ body {
 }
 
 #spin {
-     font-size: 10vw;
+     font-size: 14vw;
      color: #BED95B;
      font-family: "Bowlby One SC";
 }
 
 #to {
-     font-size: 7vw;
+     font-size: 10vw;
      margin-top: 4%;
      margin-left: 1%;
      color: #f8f8f8;
@@ -30,9 +30,9 @@ body {
 }
 
 #win {
-     font-size: 18vw;
+     font-size: 20vw;
      margin-left: 19%;
-     margin-top: -7%;
+     margin-top: -10%;
      color: #D93C87;
      font-family: "Bowlby One SC";
 }
@@ -57,8 +57,8 @@ body {
 }
 
 #wheel {
-     width: 75vw;
-     margin: 5vh auto;
+     width: 90vw;
+     margin: 2vh auto;
 }
 
 #wheel-container {

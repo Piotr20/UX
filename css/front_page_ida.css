@@ -1,0 +1,66 @@
+.big {
+     font-size: 2em;
+     color: blue;
+}
+
+.slash {}
+
+.small {}
+
+.game_box {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20%;
+     width: 90%;
+     height: auto;
+     border-radius: 20px 20px 0 0;
+     color: #f8f8f8;
+     background-color: #D93C87;
+     padding-top: 6%;
+}
+
+.weekly {
+     font-family: bowlby one sc;
+     font-size: 3.6em;
+     color: #f8f8f8;
+     margin-bottom: -30px;
+     margin-top: -4%;
+     padding-left: 6%;
+     float: left;
+     text-transform: uppercase;
+     letter-spacing: 0.02em;
+}
+
+.contest {
+     font-family: bowlby one sc;
+     font-size: 2.4em;
+     color: #BED95B;
+     padding-bottom: 4%;
+     padding-right: 6%;
+     float: right;
+     text-transform: uppercase;
+     letter-spacing: 0.01em;
+}
+
+.content {
+     padding-left: 8%;
+     padding-right: 8%;
+}
+
+.game {
+     font-family: "Inter";
+     color: #143959;
+     margin-top: 200px;
+     text-align: center;
+     font-size: 1.4em;
+     font-weight: 800;
+}
+
+.flappy_bird {
+     font-family: "inter";
+     color: #BED95B;
+     margin-top: 6px;
+     text-align: center;
+     font-size: 3.3em;
+     font-weight: 900;
+}
